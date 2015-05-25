@@ -39,14 +39,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(VisualStudioDir)/Builds/$(TargetName)/Debug</OutDir>
+    <OutDir>$(VisualStudioDir)/Builds/$(TargetName)/Debug/</OutDir>
     <IntDir>$(VisualStudioDir)/Builds/$(TargetName)/Debug/temp/</IntDir>
     <IncludePath>$(SolutionDir)/Dependencies/include/;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)/Dependencies/lib/;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(VisualStudioDir)/Builds/$(TargetName)/Release</OutDir>
-    <IntDir>$(VisualStudioDir)/Builds/$(TargetName)/Release/temp</IntDir>
+    <OutDir>$(VisualStudioDir)/Builds/$(TargetName)/Release/</OutDir>
+    <IntDir>$(VisualStudioDir)/Builds/$(TargetName)/Release/temp/</IntDir>
     <IncludePath>$(SolutionDir)/Dependencies/include/;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)/Dependencies/lib/;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
@@ -77,9 +77,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="ResourceHolder.hpp" />
   </ItemGroup>
   <ItemGroup>
