@@ -85,6 +85,10 @@
   <ItemGroup>
     <None Include="ResourceHolder.inl" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Textures\Desert.png" />
+    <Image Include="Media\Textures\Eagle.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Media">
+      <UniqueIdentifier>{bcbfbe8b-183d-4e20-b541-053f100c85f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Media\Textures">
+      <UniqueIdentifier>{6279409f-4217-4eff-9e7e-36e7d2a1493e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -28,5 +34,13 @@
     <None Include="ResourceHolder.inl">
       <Filter>Header Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Textures\Desert.png">
+      <Filter>Resource Files\Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Textures\Eagle.png">
+      <Filter>Resource Files\Media\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
